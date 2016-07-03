@@ -1,0 +1,306 @@
+/*difference bttw   focus &hover*/
+*{
+margin:0px;
+padding:0px;
+font-family:arial,helvetica,sans-serif;
+font-size:12px;
+background-color:white;/*#eff5f9;*/
+
+}#log_sign_forms{margin:10px;
+	padding: 20px;
+	background:#006699;
+	overflow: auto;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	box-shadow: 5px 5px 15px #A0A0A0;
+	-moz-box-shadow: 5px 5px 15px #A0A0A0;
+	-webkit-box-shadow: 5px 5px 15px #A0A0A0;
+}
+#log_sign_forms input[type="submit"]{
+	background-color:green;
+	width:180px;
+	padding: 10px;
+	font-size:16px;
+	border-radius:20px;
+}
+
+#log_sign_forms input[type="submit"]:focus{background-color:red;}
+#likeb input[type="submit"]{background-color:red;}
+
+html{margin-left:8px;}
+ 
+.headerMenu{
+	background-image:url(../img/menu_bg.png);
+	height:56px;
+	border-bottom:0px;
+	padding-left:auto;
+	padding-right:auto;
+	width:100%;
+	/*position:fixed;*/
+}
+#wrapper{
+	background-image:url(../img/menu_bg.png);
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	padding-top:0px;
+	padding-bottom:0px;
+	
+}
+.logo{
+	background-image:url(../img/menu_bg.png);
+	width:125px;margin-left:-600px;
+}
+.logo img {
+	background-image:url(../img/menu_bg.png);
+	width:150px;
+	height:38px;
+	padding-top:5px;
+}
+.search_box {
+background-image : url(../img/menu_bg.png);
+position : absolute;
+top : 13px;
+margin-left :-450px;
+
+}
+
+#search input[type="text"] {
+background : url(../img/search-white.png) 10px 6px no-repeat #267BB6;
+outline : none;
+border : 0 none ;
+font : bold 12px Arial,Helvetica, Sans-serif;
+width : 150px;
+padding : 6px 15px 6px 35px;
+margin:0px;
+text-shadow : 0 2px 2px rgba(0, 0, 0, 0.3);
+-webkit-box-shadow : 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+-moz-box-shadow : 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+box-shadow : 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+-webkit-transition : all 0.7s ease 0s;
+-moz-transition : all 0.7s ease 0s;
+-o-transition : all 0.7s ease 0s;
+transition : all 0.7s ease 0s;
+}
+
+#search input[type="text"]:focus {
+background : url(../img/search-dark.png) no-repeat  10px 6px #FCFCFC;
+color : #6A6F75;
+width : 250px;
+box-shadow : 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+-webkit-box-shadow : 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+-moz-box-shadow : 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+
+text-shadow:0 2px 3px rgba(0,0,0,1);
+}
+@media screen and (max-width: 1280px){
+#menu {
+background-image : url(../img/menu_bg.png);
+position : absolute;
+top : 0px;
+right : 0px;
+height : 37px;
+padding-top : 19px;
+margin-right : 4%;
+}
+}
+@media screen and (min-width: 1280px){
+#menu {
+background-image : url(../img/menu_bg.png);
+position : absolute;
+top : 0px;
+right : 0px;
+height : 37px;
+padding-top : 19px;
+margin-right : 10%;
+}
+}
+@media screen and (min-width: 1920px){
+#menu {
+background-image : url(../img/menu_bg.png);
+position : absolute;
+top : 0px;
+right : 0px;
+height : 37px;
+padding-top : 19px;
+margin-right : 25%;
+}
+}
+#menu a {
+color : #FFFFFF;
+text-decoration : none;
+font-size : 14px;
+background-image : url(../img/menu_bg.png);
+background-repeat : no-repeat;
+padding-top : 19px;
+padding-bottom : 22px;
+padding-left : 10px;
+padding-right : 10px;
+}
+#menu a:hover {
+background-image : url(../img/contentpattern.png);
+
+}
+h2 {
+	font-family:Arial,helvetica,sans-serif;
+	font-size:18px;
+	padding:8px;
+	color:#0084c6;      
+}
+input[type="text"]{
+	background-color:#ffffff;
+	border:1px solid #e2e2e2;
+	font-size:15px;
+	width:300px;
+	padding:10px;
+	margin-bottom:15px;
+	margin-top:15px;
+	outline:none;
+}input[type="password"]{
+	background-color:#ffffff;
+	border:1px solid #e2e2e2;
+	font-size:15px;
+	width:300px;
+	padding:10px;
+	margin-bottom:15px;
+	margin-top:15px;
+	outline:none;
+}input[type="password"]:hover{
+border:1px solid #006fc4;}
+
+input[type="text"]:hover{
+	border:1px solid #006fc4;
+}
+
+input[type="submit"]{
+	background-color:#006fca;
+	border:1px solid #00508d;
+	font-size:13px;
+	color:#ffffff;width:110px;
+	margin-bottom:3px;
+	margin-top:3px;
+	border-radius:7px;
+}
+input[type="submit"]:focus{background-color:red;}
+
+input[type="button"]{
+	background-color:#006fca;
+	border:1px solid #00508d;
+	font-size:13px;
+	color:#ffffff;width:110px;
+	margin-bottom:3px;
+	margin-top:3px;
+	border-radius:7px;
+}
+input[type="button"]:focus{background-color:red;}
+
+	p{
+		padding-top:10px;
+	}
+	.profileftsideContent{/*position:absolute;*/
+	
+		padding-right:0px;
+		padding-bottom:5px;
+		padding-top:5px;
+		padding-left:0px;
+		height:200px;
+		width:350px;
+		border:1px solid #00508d;
+		background-color:white;
+		color:black;
+		text-align:justify;
+	}
+	.postForm{    
+	    position:relative;
+		float:right;
+		width:660px;
+		height:80px;
+		background-color:blue;gray;
+		padding:5px;
+		margin-right:300px;margin-top:33px;
+	}
+	.profilePosts{
+		position:absolute;
+		width:660px;
+		height:auto;
+		background-color:white;
+		border-right: 1px solid white;
+		text-align:justify;
+		padding:5px; outline:none;
+		margin-top:7px;
+		margin-left:-5px; /*used negative sign to margin*/
+		
+	}
+	.albums {
+		
+		background-color:#FFFFFF;
+		border :1px solid #F3F6F9;
+		padding:3px;
+		width:200px;
+		height:200px;
+		margin-right:10px;
+		text-align:center;
+	}
+		.albums :hover {
+	
+		background-color:#F3F6F9;
+		border :1px solid #F3F6F9;
+	}
+	
+	.newsFeedPost {
+		width:70%;
+		background-color:#FFFFFF;
+		border :1px solid #F3F6F9;
+	}
+		.newsFeedPost :hover {
+		width:70%;
+		background-color:#F3F6F9;
+		border :1px solid #F3F6F9;
+	}
+		.newsfeedPost-img:hover {
+		
+		height:200px;
+		width:200px;
+		
+	}
+	
+	.newsFeed h2{
+		border:1px solid #DCE5EE;
+		width :70%;
+		background-color:blue;
+		
+	}
+		
+		
+	.profilewrap{position:absolute;
+	             width:200px; 
+				
+	              margin-top:7px; margin-left:-250px;/*Bcos ".profilewrap" is inside him oga ".postform" used negative sign to margin*/
+	}
+	
+	.textHeader{background-color:#006fca;width:350px;}  
+	
+	.profile img{height:200px;border:1px solid #00508d; width:200px;
+	           
+	}
+	.profilePosts hr {
+	background-color: #DCE5EE;
+    height: 1px;
+     border: 0px;	
+	}
+  .posted_by {
+	  font-weight:800;
+	  color:#000;
+	  float:left;
+  }	
+	.posted_by a {
+		font-weight:800;
+		color:BLUE;
+		text-decoration:none;
+	}
+.posted_by a:hover {
+	font-weight:800;
+	color:RED;
+	text-decoration:underline;
+}
